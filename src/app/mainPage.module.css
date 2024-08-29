@@ -1,0 +1,29 @@
+.mainForms {
+  height: 50vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.buttonNextVehicle {
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.mainVehicles,
+.yearsOfVehicles,
+.button {
+  width: 80%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}

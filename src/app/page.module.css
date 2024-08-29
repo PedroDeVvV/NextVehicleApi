@@ -1,0 +1,32 @@
+.mainDetails {
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #000000;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.buttonBackHome {
+    color: #fff;
+    border-radius: 20px;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   transition: all .5s;
+   margin-top: 30px;
+
+}
+
+.buttonBackHome:hover {
+   background-color: rgb(109, 3, 3);
+}
